@@ -1,0 +1,9 @@
+            Model  CV R2 (mean)  CV RMSE (mean)  Test MAE  Test RMSE  Test R2
+Linear Regression         0.932           8.035     5.322      7.785    0.926
+    Decision Tree         0.961           6.084     4.452      5.572    0.962
+    Random Forest         0.980           4.315     3.306      4.081    0.980
+Gradient Boosting         0.985           3.733     2.747      3.420    0.986
+Tuned: {'best_params': {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300}, 'cv_rmse': 3.5816513539859627, 'test_mae': 2.6506107606751863, 'test_rmse': 3.290199787883652, 'test_r2': 0.9868429325067035}
+Optimization A: {'shipments': 500, 'sla_hrs': 60, 'baseline_cost': 1111128.0350000001, 'optimized_cost': 2129227.6350000002, 'all_air_cost': 3423881.835, 'baseline_sla_breach_pct': 39.2, 'optimized_sla_breach_pct': 0.0, 'all_air_sla_breach_pct': 0.0, 'opt_vs_all_air_saving_pct': 37.81246732190452, 'on_time_n': 304, 'late_n': 196, 'on_time_group_cost_change_pct': -27.47220357583311, 'late_group_cost_change_pct': 288.6783126206139, 'baseline_mix': {'Road': 49.8, 'Rail': 22.0, 'Sea': 17.2, 'Air': 11.0}, 'optimized_mix': {'Rail': 46.2, 'Air': 30.2, 'Road': 12.0, 'Sea': 11.6}}
+Optimization B: {'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'baseline_objective': 2219884.269653021, 'optimized_objective': 2101374.5057297535, 'improvement_pct': 5.338555957324342, 'baseline_split': {'FastTrack': 28.4, 'SwiftMove': 24.6, 'CargoPrime': 24.0, 'EcoFreight': 23.0}, 'optimized_split': {'FastTrack': 32.0, 'SwiftMove': 27.0, 'CargoPrime': 27.0, 'EcoFreight': 14.0}, 'capacity': {'FastTrack': 160, 'SwiftMove': 135, 'CargoPrime': 135, 'EcoFreight': 110}}
+Done.
